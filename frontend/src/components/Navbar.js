@@ -10,7 +10,7 @@ export default function Navbar() {
   const dispatch = useDispatch()
   return (
     <div>
-      <nav className="navbar navbar-expand-lg shadow-lg p-3 mb-5 bg-white rounded">
+      <nav className="navbar navbar-expand-lg shadow-lg p-3 mb-5 bg-white rounded" style={{ background: 'linear-gradient(180deg, rgb(231, 19, 19) 0%, rgb(255, 2, 2) 100%)' }}>
         <a className="navbar-brand" href="/">
           PAPA'S PIZZERIA
         </a>
