@@ -15,7 +15,7 @@ export default function Pizzaslist() {
     dispatch(getAllPizzas());
   }, []);
   return <div>
-    <h2>Pizza's List</h2>
+    <h1 style={{ fontSize: "37px", color: "white", fontFamily: "cursive", backgroundColor:"black", padding:"10px" }} >Pizzas list</h1>
     {loading && (<Loading/>)}
     {error && (<Error error='Something went wrong'/>)}
 

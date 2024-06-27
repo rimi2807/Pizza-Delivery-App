@@ -1,6 +1,7 @@
+require("dotenv").config();
 const mongoose = require("mongoose");
 
-var mongoURL = 'mongodb+srv://tramsha4:Ramsha-5t5r@cluster0.aysrqcc.mongodb.net/mern-pizza-delivery'
+const mongoURL = process.env.VITE_DATABASE;
 
 mongoose.connect(mongoURL , {useUnifiedTopology:true , useNewUrlParser:true})
 
