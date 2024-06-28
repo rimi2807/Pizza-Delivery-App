@@ -14,6 +14,7 @@
     "dotenv": "^16.4.5",
     "i": "^0.3.7",
     "jquery": "^3.7.1",
+    "mern-pizza-delivery": "file:..",
     "npm": "^10.8.1",
     "popper.js": "^1.16.1",
     "react": "^18.3.1",
